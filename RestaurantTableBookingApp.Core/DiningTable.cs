@@ -18,4 +18,6 @@ public partial class DiningTable
 
     public virtual RestaurantBranch RestaurantBranch { get; set; } = null!;
 
+    public virtual ICollection<TimeSlot> TimeSlots { get; set; } = new List<TimeSlot>();
+
 }
