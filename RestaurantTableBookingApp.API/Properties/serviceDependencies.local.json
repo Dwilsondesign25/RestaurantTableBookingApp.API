@@ -4,6 +4,9 @@
       "group": "connections",
       "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/lsc-table-booking-app",
       "type": "compute.appService.windows"
+    },
+    "secrets1": {
+      "type": "secrets.user"
     }
   }
 }
