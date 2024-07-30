@@ -3,13 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantTableBookingApp.API", "RestaurantTableBookingApp.API\RestaurantTableBookingApp.API.csproj", "{66617D86-2A9E-4C54-8AC2-293A58D83655}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestaurantTableBookingApp.API", "RestaurantTableBookingApp.API\RestaurantTableBookingApp.API.csproj", "{66617D86-2A9E-4C54-8AC2-293A58D83655}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantTableBookingApp.Core", "RestaurantTableBookingApp.Core\RestaurantTableBookingApp.Core.csproj", "{0D6099FF-7E86-499D-927C-2696EEB93F8F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestaurantTableBookingApp.Core", "RestaurantTableBookingApp.Core\RestaurantTableBookingApp.Core.csproj", "{0D6099FF-7E86-499D-927C-2696EEB93F8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantTableBookingApp.Data", "RestaurantTableBookingApp.Data\RestaurantTableBookingApp.Data.csproj", "{43BC5727-86EE-48D0-97E3-843F4806A53D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestaurantTableBookingApp.Data", "RestaurantTableBookingApp.Data\RestaurantTableBookingApp.Data.csproj", "{43BC5727-86EE-48D0-97E3-843F4806A53D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantTableBookingApp.Service", "RestaurantTableBookingApp.Service\RestaurantTableBookingApp.Service.csproj", "{8491ECB9-A245-41EC-B9B0-C29A7B4967BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestaurantTableBookingApp.Service", "RestaurantTableBookingApp.Service\RestaurantTableBookingApp.Service.csproj", "{8491ECB9-A245-41EC-B9B0-C29A7B4967BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9FBCBC9B-E828-4CF2-AF97-E08A9C5045C0}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantTableBookingApp.Function", "RestaurantTableBookingApp.Function\RestaurantTableBookingApp.Function.csproj", "{3FAA6F63-8AD8-404E-AF7A-9B6D8099FD46}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +40,10 @@ Global
 		{8491ECB9-A245-41EC-B9B0-C29A7B4967BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8491ECB9-A245-41EC-B9B0-C29A7B4967BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8491ECB9-A245-41EC-B9B0-C29A7B4967BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FAA6F63-8AD8-404E-AF7A-9B6D8099FD46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FAA6F63-8AD8-404E-AF7A-9B6D8099FD46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FAA6F63-8AD8-404E-AF7A-9B6D8099FD46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FAA6F63-8AD8-404E-AF7A-9B6D8099FD46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
